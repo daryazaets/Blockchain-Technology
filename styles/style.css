@@ -103,7 +103,8 @@ h1 {
   margin-bottom: 25px;
 }
 
-.about-us-header {
+.about-us-header,
+.our-interests-header {
   text-align: center;
   margin-bottom: 16px;
   font-family: "Manrope";
@@ -114,7 +115,8 @@ h1 {
   color: #2b2b2b;
 }
 
-.about-us-description {
+.about-us-description,
+.our-interests-description {
   text-align: center;
   margin-bottom: 16px;
   font-family: "Manrope";
@@ -127,4 +129,35 @@ h1 {
 
 .about-us-image {
   text-align: center;
+}
+
+.table-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 2px solid #ff6600;
+}
+
+.table-about-us {
+  margin-bottom: 50px;
+}
+
+.amount {
+  padding: 15px;
+  background: #ffede6;
+  border-radius: 6px;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 18px;
+  color: #ff6600;
+}
+
+.about-text-table {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  color: #5b5b5b;
 }
